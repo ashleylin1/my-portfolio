@@ -51,7 +51,7 @@ nav ul li a{
   display: none;
 }
 /*responsive hamburger menu*/
-@media (max-width: 850px){
+@media (max-width: 600px){
   .navbtn{
     display: block;
   }
@@ -199,4 +199,13 @@ mark{
   margin-top: 210px;
   margin-left: 400px;
   width: 400px;
+}
+
+@media (max-width: 1000px){
+  .grid .largeBox{
+    width: 70%;
+  }
+  #projects{
+    width: 70%;
+  }
 }
