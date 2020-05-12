@@ -30,7 +30,7 @@ nav ul li a{
   font-size: 17px;
   font-weight: 400;
 }
-.navHover:hover{
+nav ul li a:hover{
   text-decoration: none;
   border-bottom-width: 3px;
   border-bottom-style: solid;
@@ -131,6 +131,8 @@ mark{
   color: white;
   border-radius: 5px;
   border: none;
+  text-align: center;
+  line-height:40px;
   width: 165px;
   height: 40px;
   grid-column: 1/3;
