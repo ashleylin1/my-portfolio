@@ -201,11 +201,12 @@ mark{
   width: 400px;
 }
 
-@media (max-width: 1000px){
-  .grid .largeBox{
-    width: 70%;
-  }
-  #projects{
-    width: 70%;
-  }
+#footer{
+  bottom:0;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+#AshleySignature{
+  width:120px;
 }
